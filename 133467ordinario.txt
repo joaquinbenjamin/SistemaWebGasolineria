@@ -1,0 +1,47 @@
+===Base de datos 133467ordinario
+
+== Estructura de tabla para la tabla precios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**tipo**//|varchar(30)|No|
+|precio|double|No|
+== Volcado de datos para la tabla precios
+
+|magna|19.21
+|premium|19.64
+== Estructura de tabla para la tabla usuarios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int(11)|No|
+|nombre|varchar(100)|No|
+|apellidos|varchar(100)|No|
+|usuario|varchar(100)|No|
+|password|varchar(100)|No|
+== Volcado de datos para la tabla usuarios
+
+|1|Benjamín|Joaquín Martínez|benjaminjoaquin|12345
+|2|Invitado|Programacion Web|invitado|12345
+== Estructura de tabla para la tabla ventas
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int(11)|No|
+|fecha|date|No|
+|tipo|varchar(15)|No|
+|precio|double|No|
+|cantidad|int(11)|No|
+|descuento|int(11)|No|
+|total|double|No|
+== Volcado de datos para la tabla ventas
+
+|1|2021-01-16|premium|21|8|0|168
+|3|2021-01-17|premium|21|6|10|113.4
+|6|2021-01-18|premium|21|2|20|33.6
+|8|2021-01-18|magna|19.9|2|0|39.8
+|11|2021-01-19|magna|19.21|2|0|38.42
+|13|2021-01-19|magna|19.21|3|20|46.104

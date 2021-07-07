@@ -1,0 +1,17 @@
+﻿____________________________
+Datos de inicio de sesión:
+
+usuario: invitado
+password: 12345
+
+____________________________
+
+En la base de datos también almacene 
+el valor de la gasolina para ser 
+actualizado posteriormente 
+
+Adicionalmente subi el sitio web a la dirección
+
+https://pw133467.000webhostapp.com/ordinario/
+
+Para visualizar directamente
